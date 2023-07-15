@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    border: 2px solid tomato;
+    background-color: silver;
+}
+
+.registration-form {
+    background-color: white;
+    padding: 30px;
+}
+
+.form-heading {
+    display: block;
+    background-color: rgb(61, 61, 221);
+    color: white;
+    padding: 3px 5px;
+}
+
+.name-container {
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.registration-form input {
+    height: 25px;
+    background-color: lightgray;
+    border: none;
+}
+
+.button {
+    height: 25px;
+    background-color: rgb(61, 61, 221);
+    color: white;
+    border: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+.leleb-margin {
+    margin-bottom: 20px;
+}
